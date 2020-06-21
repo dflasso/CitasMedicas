@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Lasso y Vaca</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/generalStyle.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>
+                        Citas Medicas
+                    </h1>
+                </div>
+                <div class="col-sm-4">
+                    <nav>
+                        <ul>
+                            <li class="btn btn-outline-primary " onclick="redirectLogin()" >  Iniciar Sesión</a> </li>
+                            <li class="btn btn-outline-primary " onclick="redirectNosotros('pages/')">  Nosotros </a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="alert alert-info mt-2" role="alert"> Especificaciones del Sistema </div>
+                        <div class="container-info text-justify container-login"> Se requiere realizar los modelos respectivos para el
+                            diseño de una aplicación WEB, que permita realizar el control de las citas médicas de
+                            pacientes con sus respectivos médicos usando un Seguro Médico.
+                            El proceso sigue los siguientes pasos. <br/><br/>
+                            <ul>
+                                <li> El paciente obtiene una ODA (orden de atención con el respectivo medico) con una
+                                    persona que
+                                    hace de agente de seguro. En él se solicita con el medico que se va atender, el
+                                    motivo y se
+                                    registra la fecha. Se emite un documento ODA que el paciente lleva al médico.
+                                </li>
+                                <li>
+                                    El paciente se comunica con la secretaria del médico y selecciona un día y la hora
+                                    en la que va asistir para su revisión.
+                                </li>
+                                <li>
+                                    El día de la cita el paciente entrega la orden de atención a la secretaria del
+                                    médico.
+                                    Una vez hecha la revisión se entrega por parte del médico la receta con los
+                                    medicamentos
+                                    respectivos, registrando en la receta el nombre del paciente.
+                                </li>
+                            </ul>
+                                Se debe tener en cuenta que el paciente antes de realizar este proceso debe tener
+                                registrado
+                                un contrato con el Seguro Médico el cual se lo genera mediante un agente del balcón de
+                                servicio.
+                           
+                        </div>
+
+                    </div>
+                </div>
+              
+        </section>
+    </main>
+    <footer>
+        Universidad de las Fuerzas Armadas - ESPE &copy; 2020
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

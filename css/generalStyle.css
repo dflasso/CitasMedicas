@@ -1,0 +1,81 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/08/23/36/isolated-1188036_960_720.png"); /* The image used */
+    background-color: #f3f3f3; /* Used if the image is unavailable */
+    background-size: cover;
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed;
+}
+
+/*encabezado*/
+header{
+    background-color: #ffffffde;
+    color: rgb(0, 15, 153);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 1px solid #d412123d;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 0px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*Contenedores de Información*/
+.container-info {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    color:rgb(0, 15, 153);
+    font: 15px Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container-login {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 15, 153);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 15, 153);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    height: 28px;
+}
+
+.link{
+    text-decoration: none;
+    color:rgb(0, 15, 153);
+}
+
+.link:hover{
+    color:rgb(255, 255, 255);
+}
+
+.title{
+    text-decoration: none;
+    color:rgb(0, 15, 153);
+}
+
+.title:hover{
+    color:rgb(0, 15, 153);
+    text-decoration: underline;
+}
